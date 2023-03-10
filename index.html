@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown Menu</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <button id="home" type="button" class="link">Home</button>
+      <div class="dropdown blog">
+        <button data-dropdown-button class="link">Blog</button>
+        <div class="dropdown-menu">
+          <button type="button" class="link">Design</button>
+          <button type="button" class="link">HTML</button>
+          <button type="button" class="link">CSS</button>
+          <button type="button" class="link">JavaScript</button>
+        </div>
+      </div>
+
+      <div class="dropdown work">
+        <button data-dropdown-button type="button" class="link">Work</button>
+        <div class="dropdown-menu">
+          <button type="button" class="link">lorem</button>
+          <button type="button" class="link">Lorm</button>
+          <button type="button" class="link">Lorem</button>
+          <button type="button" class="link">Lorem</button>
+          <button type="button" class="link">Lorem</button>
+          <button type="button" class="link">Lorem</button>
+        </div>
+      </div>
+      <div class="dropdown about">
+        <button data-dropdown-button type="button" class="link">About</button>
+        <div class="dropdown-menu">
+          <button type="button" class="link">Lorem</button>
+          <button type="button" class="link">Lorem</button>
+          <button type="button" class="link">Lorem</button>
+          <button type="button" class="link">Lorem</button>
+          <button type="button" class="link">Lorem</button>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>
